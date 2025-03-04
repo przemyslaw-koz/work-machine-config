@@ -6,7 +6,7 @@ SHELL_PRE_OH_MY_ZSH_TARGET := ./terminal/shell.pre-oh-my-zsh
 
 .PHONY: all update-zshrc update-shell-pre-oh-my-zsh
 
-all: update-zshrc update-vscode-extensions update-shell-pre-oh-my-zsh
+all: update-zshrc update-shell-pre-oh-my-zsh
 
 $(ZSHRC_TARGET): $(ZSHRC_SOURCE)
 	cp $(ZSHRC_SOURCE) $(ZSHRC_TARGET)
